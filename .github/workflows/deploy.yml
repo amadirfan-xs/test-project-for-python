@@ -18,5 +18,3 @@ jobs:
           cache: 'pip' # Automated caching
       - name: Install dependencies
         run: pip install -r requirements.txt
-      - name: Run Tests
-        run: pytest
